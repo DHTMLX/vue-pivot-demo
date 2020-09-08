@@ -4,8 +4,17 @@
 	</a>
 </p>
 
-
 # DHTMLX Pivot + Vue
+
+### How to run
+- Run `npm install`
+- Run `npm run storybook` in the project directory
+- Open [http://localhost:6006](http://localhost:6006) to view it in the browser.
+
+## Useful links
+
+- [Online  documentation](https://docs.dhtmlx.com/pivot/index.html)
+- [Support forum](https://forum.dhtmlx.com/c/widgets/pivot)
 
 ## Follow us
 

@@ -1,5 +1,5 @@
 <template>
-  <div class="dhx-container_inner export">
+  <div class="dhx-container_inner">
     <section class="dhx_sample-controls">
       <button class="dhx_sample-btn dhx_sample-btn--flat" @click="runExport('xlsx')">Export xlsx</button>
       <button class="dhx_sample-btn dhx_sample-btn--flat" @click="runExport('csv')">Export csv</button>
@@ -17,35 +17,35 @@ export default {
     pivot: null,
     fields: {
       rows: ["form", "year"],
-      columns: [{"id": "when", "group": "dateByQuarter"}],
-      values: [{id: "oil", method: "max"}, {id: "oil", method: "min"}],
+      columns: [{ id: "when", group: "dateByQuarter" }],
+      values: [
+        { id: "oil", method: "max" },
+        { id: "oil", method: "min" },
+      ],
     },
     mark: {
       min: "min_cell",
       max: "max_cell",
     },
     fieldList: [
-      {id: "name", label: "Name"},
-      {id: "year", label: "Year"},
-      {id: "continent", label: "Continent"},
-      {id: "form", label: "Form"},
-      {id: "gdp", label: "GDP"},
-      {id: "oil", label: "Oil"},
-      {id: "balance", label: "Balance"},
-      {id: "when", label: "When", type: "date", format: "%d/%m/%Y"},
+      { id: "name", label: "Name" },
+      { id: "year", label: "Year" },
+      { id: "continent", label: "Continent" },
+      { id: "form", label: "Form" },
+      { id: "gdp", label: "GDP" },
+      { id: "oil", label: "Oil" },
+      { id: "balance", label: "Balance" },
+      { id: "when", label: "When", type: "date", format: "%d/%m/%Y" },
     ],
   }),
   mounted() {
-    fromCDN([
-      "https://cdn.dhtmlx.com/pivot/pro/edge/pivot.js",
-      "https://cdn.dhtmlx.com/pivot/pro/edge/pivot.css",
-    ]).then(() => {
+    fromCDN(["https://cdn.dhtmlx.com/pivot/pro/edge/pivot.js", "https://cdn.dhtmlx.com/pivot/pro/edge/pivot.css"]).then(() => {
       // eslint-disable-next-line no-undef
       this.pivot = new dhx.Pivot(this.$refs.pivot, {
         data: dataset,
         fields: this.fields,
         fieldList: this.fieldList,
-        mark: this.mark
+        mark: this.mark,
       });
     });
   },
@@ -59,7 +59,7 @@ export default {
       if (type === "csv") {
         this.pivot.export.csv();
       }
-    }
+    },
   },
   beforeDestroy() {
     if (this.pivot) {

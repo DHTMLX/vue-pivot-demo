@@ -1,5 +1,5 @@
 <template>
-	<div class="dhx_sample-container__widget" ref="pivot"></div>
+  <div class="dhx_sample-container__widget" ref="pivot"></div>
 </template>
 
 <script>
@@ -12,23 +12,28 @@ export default {
     fields: {
       rows: ["form", "name"],
       columns: ["year"],
-      values: [{id: "oil", method: "count"}, {id: "gdp", method: "sum"}],
+      values: [
+        { id: "oil", method: "count" },
+        { id: "gdp", method: "sum" },
+      ],
     },
     fieldList: [
-      {id: "name", label: "Name"},
-      {id: "year", label: "Year"},
-      {id: "continent", label: "Continent"},
-      {id: "form", label: "Form"},
+      { id: "name", label: "Name" },
+      { id: "year", label: "Year" },
+      { id: "continent", label: "Continent" },
+      { id: "form", label: "Form" },
       {
-        id: "gdp", label: "GDP", cellTemplate: function(val) {
+        id: "gdp",
+        label: "GDP",
+        cellTemplate: function (val) {
           return "&euro; " + val;
         },
       },
-      {id: "oil", label: "Oil"},
-      {id: "balance", label: "Balance" },
-      {id: "when", label: "When", type: "date", format: "%d/%m/%Y"},
+      { id: "oil", label: "Oil" },
+      { id: "balance", label: "Balance" },
+      { id: "when", label: "When", type: "date", format: "%d/%m/%Y" },
     ],
-    customFormat: function(cellValue, method) {
+    customFormat: function (cellValue, method) {
       if (method === "count") {
         return cellValue;
       }
@@ -39,17 +44,14 @@ export default {
     },
   }),
   mounted() {
-    fromCDN([
-      "https://cdn.dhtmlx.com/pivot/pro/edge/pivot.js",
-      "https://cdn.dhtmlx.com/pivot/pro/edge/pivot.css",
-    ]).then(() => {
+    fromCDN(["https://cdn.dhtmlx.com/pivot/pro/edge/pivot.js", "https://cdn.dhtmlx.com/pivot/pro/edge/pivot.css"]).then(() => {
       // eslint-disable-next-line no-undef
       this.pivot = new dhx.Pivot(this.$refs.pivot, {
         data: dataset,
         fields: this.fields,
         fieldList: this.fieldList,
         customFormat: this.customFormat,
-        layout: this.layout
+        layout: this.layout,
       });
     });
   },

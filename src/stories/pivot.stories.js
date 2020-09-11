@@ -9,6 +9,8 @@ import PivotFooterCdn from "../components/pivot/PivotFooterCdn";
 import PivotEventsCdn from "../components/pivot/PivotEventsCdn";
 import PivotGridEventsCdn from "../components/pivot/PivotGridEventsCdn";
 
+import "../index.css";
+
 export default {
   title: "Pivot",
 };

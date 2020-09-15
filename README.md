@@ -6,7 +6,13 @@
 
 # DHTMLX Pivot + Vue
 
-### How to run
+[![dhtmlx.com](https://img.shields.io/badge/made%20by-DHTMLX-blue)](https://dhtmlx.com/)
+
+From this file you'll know how to use DHTMLX [JavaScript pivot table](https://dhtmlx.com/docs/products/dhtmlxPivot/) with Vue.js. 
+
+[![dhx-pivot](https://raw.githubusercontent.com/plazarev/media/master/dhx-pivot.png)](https://dhtmlx.github.io/angular-pivot-demo/?path=/story/pivot--initialization)
+
+## How to run
 - Run `npm install`
 - Run `npm run storybook` in the project directory
 - Open [http://localhost:6006](http://localhost:6006) to view it in the browser.
@@ -14,19 +20,8 @@
 ## Useful links
 
 - [Online  documentation](https://docs.dhtmlx.com/pivot/index.html)
+- [DHTMLX Pivot product page](https://dhtmlx.com/docs/products/dhtmlxPivot/)
 - [Support forum](https://forum.dhtmlx.com/c/widgets/pivot)
-
-## Follow us
-
-Star our GitHub repo :star:
-
-Watch our tutorials on [YouTube](https://www.youtube.com/user/dhtmlx/videos) :eyes:
-
-Read us on [Medium](https://medium.com/@dhtmlx) :newspaper:
-
-Follow us on [Twitter](https://twitter.com/dhtmlx) :feet:
-
-Like our page on [Facebook](https://www.facebook.com/dhtmlx/) :thumbsup:
 
 ## Live demos
 
@@ -40,3 +35,16 @@ Like our page on [Facebook](https://www.facebook.com/dhtmlx/) :thumbsup:
 - [Footer](https://dhtmlx.github.io/vue-pivot-demo/?path=/story/pivot--footer)
 - [Events](https://dhtmlx.github.io/vue-pivot-demo/?path=/story/pivot--events)
 - [Grid Events](https://dhtmlx.github.io/vue-pivot-demo/?path=/story/pivot--grid-events)
+
+
+## Follow us
+
+Star our GitHub repo :star:
+
+Watch our tutorials on [YouTube](https://www.youtube.com/user/dhtmlx/videos) :eyes:
+
+Read us on [Medium](https://medium.com/@dhtmlx) :newspaper:
+
+Follow us on [Twitter](https://twitter.com/dhtmlx) :feet:
+
+Like our page on [Facebook](https://www.facebook.com/dhtmlx/) :thumbsup:

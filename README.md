@@ -10,7 +10,7 @@
 
 From this file you'll know how to use DHTMLX [JavaScript pivot table](https://dhtmlx.com/docs/products/dhtmlxPivot/) with Vue.js. 
 
-[![dhx-pivot](https://raw.githubusercontent.com/plazarev/media/master/dhx-pivot.png)](https://dhtmlx.github.io/angular-pivot-demo/?path=/story/pivot--initialization)
+[![dhx-pivot](https://raw.githubusercontent.com/plazarev/media/master/dhx-pivot.png)](https://dhtmlx.github.io/vue-pivot-demo/?path=/story/pivot--initialization)
 
 ## How to run
 - Run `npm install`

@@ -19,8 +19,8 @@ From this file you'll know how to use DHTMLX [JavaScript pivot table](https://dh
 
 ## Useful links
 
+- [Download DHTMLX Pivot widget](https://dhtmlx.com/docs/products/dhtmlxPivot/download.shtml)
 - [Online  documentation](https://docs.dhtmlx.com/pivot/index.html)
-- [DHTMLX Pivot product page](https://dhtmlx.com/docs/products/dhtmlxPivot/)
 - [Support forum](https://forum.dhtmlx.com/c/widgets/pivot)
 
 ## Live demos

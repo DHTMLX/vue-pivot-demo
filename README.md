@@ -17,12 +17,6 @@ From this file you'll know how to use DHTMLX [JavaScript pivot table](https://dh
 - Run `npm run storybook` in the project directory
 - Open [http://localhost:6006](http://localhost:6006) to view it in the browser.
 
-## Useful links
-
-- [Download DHTMLX Pivot widget](https://dhtmlx.com/docs/products/dhtmlxPivot/download.shtml)
-- [Online  documentation](https://docs.dhtmlx.com/pivot/index.html)
-- [Support forum](https://forum.dhtmlx.com/c/widgets/pivot)
-
 ## Live demos
 
 - [Initialization](https://dhtmlx.github.io/vue-pivot-demo/?path=/story/pivot--initialization)
@@ -36,6 +30,11 @@ From this file you'll know how to use DHTMLX [JavaScript pivot table](https://dh
 - [Events](https://dhtmlx.github.io/vue-pivot-demo/?path=/story/pivot--events)
 - [Grid Events](https://dhtmlx.github.io/vue-pivot-demo/?path=/story/pivot--grid-events)
 
+## Useful links
+
+- [Download DHTMLX Pivot widget](https://dhtmlx.com/docs/products/dhtmlxPivot/download.shtml)
+- [Online  documentation](https://docs.dhtmlx.com/pivot/index.html)
+- [Support forum](https://forum.dhtmlx.com/c/widgets/pivot)
 
 ## Follow us
 

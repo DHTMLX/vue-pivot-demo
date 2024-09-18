@@ -18,6 +18,7 @@ export default {
             },
             columnShape: {
                 autoWidth: {
+                    auto: true,
                     columns: {
                         type: true,
                         title: true
